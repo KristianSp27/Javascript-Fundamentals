@@ -1,7 +1,10 @@
-function reverseArray(n, input) {
-  let arr = [];
-  for (let i = n - 1; i >= 0; i--) {
-    arr.push(input[i]);
+function reverseArray(counter, numbers) {
+  let array = [];
+
+  for (let i = counter - 1; i >= 0; i--) {
+    array.push(numbers[i]);
   }
-  console.log(result.join(" "));
+
+  console.log(array.join(" "));
 }
+
