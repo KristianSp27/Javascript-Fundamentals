@@ -1,8 +1,9 @@
 function personInfo(firstName, lastName, age) {
-  let personalInfo = {
-    firstName: firstName,
-    lastName: lastName,
-    age: age,
-  };
-  return personalInfo;
+  let person = {};
+  person.firstName = firstName;
+  person.lastName = lastName;
+  person.age = age;
+
+  return person;
 }
+personInfo("Peter", "Pan", "20");
